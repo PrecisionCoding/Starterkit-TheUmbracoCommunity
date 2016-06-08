@@ -1,6 +1,10 @@
 .blogposts {
-    max-width: 800px;
-    margin: 60px auto;
+    margin: 20px auto;
+
+    @media (min-width: 992px) {
+        max-width: 800px;
+        margin: 60px auto;
+    }
 }
 
 .blogpost {
@@ -9,11 +13,15 @@
 
     display: block;
 
-    padding: 30px;
-    margin: 10px 0;
+    padding: 30px 10px;
 
     &:hover {
         background: $sand;
+    }
+
+    @media (min-width: 992px) {
+        padding: 30px;
+        margin: 10px 0;
     }
 }
 
@@ -29,7 +37,7 @@
 }
 
 .blogpost-title {
-    font-size: 22px;
+    font-size: 26px;
     margin: 0 0 5px 0;
 }
 

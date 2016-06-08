@@ -2,7 +2,7 @@
     display: inline-flex;
 
     max-width: 100%;
-    padding: 10px 80px;
+    padding: 10px 40px;
 
     text-align: center;
     text-decoration: none;
@@ -24,6 +24,10 @@
     &:hover {
         opacity: .7;
         transition: all 100ms linear;
+    }
+
+    @media (min-width: 992px) {
+        padding: 10px 80px;
     }
 }
 

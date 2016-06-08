@@ -1,0 +1,19 @@
+.testimonial {
+    text-decoration: none;
+    color: black;
+
+    display: block;
+    padding: 30px;
+
+    background: $sand;
+
+    margin-bottom: 30px;
+
+    @media (min-width: 992px) {
+        padding: 40px;
+    }
+}
+
+.testimonial-title {
+    margin: 0 0 10px 0;
+}
