@@ -17,6 +17,10 @@
     background-color: $sand;
 }
 
+.section--rock {
+    background-color: $rock;
+}
+
 .section--stroke-bottom {
     border-bottom: 1px solid #F2F2F2;
 }
@@ -24,6 +28,10 @@
 /* layout */
 .section--full-height {
     height: 100vh;
+}
+
+.section--vh-25 {
+    height: 25vh;
 }
 
 .section--content-center {
