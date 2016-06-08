@@ -14,3 +14,27 @@
 
 /* font-family: 'Montserrat', sans-serif; */
 /* font-family: 'Source Sans Pro', sans-serif; */
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.source-sans-pro {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body.theme-font-standard {
+    @extend .source-sans-pro;
+
+    .nav-link {
+        @extend .source-sans-pro;
+    }
+
+    .nav-link.nav-link--home {
+        @extend .montserrat;
+    }
+
+    .section__headline {
+        @extend .montserrat;
+    }
+}
