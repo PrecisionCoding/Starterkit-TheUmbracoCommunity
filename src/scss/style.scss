@@ -1,1 +1,39 @@
+/*
+
+    Umbraco Community Styles
+
+*/
+
+
+/**
+    Defaults
+    – Import default styles
+*/
 @import "bootstrap";
+
+
+
+/**
+    Themes
+    – Different themes for the kit
+*/
+/* Colors */
+@import "themes/colors/standard";
+
+
+/* Typography */
+@import "themes/typography/standard";
+
+
+
+/**
+    Templates
+    – Styles for specific templates
+*/
+
+
+
+/**
+    Componenets
+    – Component styling
+*/
