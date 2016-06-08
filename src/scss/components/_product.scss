@@ -45,3 +45,10 @@
 .product-advantage:last-child {
     border-bottom: 1px solid #f2f2f2;
 }
+
+.product-category-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}

@@ -11,6 +11,7 @@
     background-color: #cccccc;
     height: 300px;
     position: relative;
+    overflow: hidden;
 }
 
 .product-grid__item:hover {
@@ -42,6 +43,10 @@
     bottom: 0;
     padding: 20px;
     width: 100%;
+}
+
+.product-grid__item-image {
+    max-width: 100%;
 }
 
 .product-grid__item__name {
