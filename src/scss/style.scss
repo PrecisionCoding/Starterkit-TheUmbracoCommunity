@@ -27,7 +27,6 @@ html, body {
 @import "components/grid";
 
 
-
 /**
     Themes
     – Different themes for the kit
@@ -52,3 +51,7 @@ html, body {
     Componenets
     – Component styling
 */
+
+@import "components/header";
+@import "components/section";
+@import "components/background-image";
