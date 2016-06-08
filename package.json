@@ -1,5 +1,5 @@
 {
-    "name": "Umbraco GulpFlow",
+    "name": "umbraco-gulpflow",
     "version": "1.0.0",
     "description": "Umbraco GulpFlow",
     "main": "gulpfile.js",
