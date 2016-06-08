@@ -54,14 +54,13 @@ html, body {
 @import "components/product";
 @import "components/product-grid";
 @import "components/header";
+@import "components/footer";
 @import "components/logo";
 @import "components/navigation";
 @import "components/section";
 @import "components/background-image";
 @import "components/overlay";
-
 @import "components/buttons";
-
 @import "components/blogposts";
 @import "components/testimonials";
 
@@ -71,3 +70,4 @@ html, body {
     – Classes or functions to help
 */
 @import "helpers/text-align";
+@import "helpers/widths";
