@@ -2,8 +2,7 @@
     display: inline-flex;
 
     max-width: 100%;
-    height: 50px;
-    padding: 0 80px;
+    padding: 10px 80px;
 
     text-align: center;
     text-decoration: none;
@@ -28,8 +27,14 @@
     }
 }
 
+.button--small {
+    @extend .button;
+    padding: 8px 40px;
+    font-size: 14px;
+}
 
 
+// Misc buttons
 .button--explore {
     box-shadow: 0 3px 12px rgba(black, .5);
 
@@ -40,7 +45,7 @@
 }
 
 
-
+// Light buttons
 .button--border--light {
     background: none;
     border-color: white;
@@ -49,9 +54,22 @@
     &:hover {
         background: white;
         color: black;
+        opacity: 1;
     }
 }
 
+.button--border--light_solid {
+    background: white;
+    border-color: white;
+    color: black;
+
+    &:hover {
+        opacity: .7;
+    }
+}
+
+
+// Dark buttons
 .button--border--dark {
     background: none;
     border-color: black;
@@ -60,5 +78,40 @@
     &:hover {
         background: black;
         color: white;
+        opacity: 1;
+    }
+}
+
+.button--border--dark_solid {
+    background: black;
+    border-color: black;
+    color: white;
+
+    &:hover {
+        opacity: .7;
+    }
+}
+
+
+// Dark buttons
+.button--border--blue {
+    background: none;
+    border-color: $water;
+    color: $water;
+
+    &:hover {
+        background: $water;
+        color: $water;
+        opacity: 1;
+    }
+}
+
+.button--border--blue_solid {
+    background: $water;
+    border-color: $water;
+    color: white;
+
+    &:hover {
+        opacity: .7;
     }
 }

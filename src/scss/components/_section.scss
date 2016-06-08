@@ -1,10 +1,15 @@
 .section {
     padding: 90px 20px;
 }
+
 .section__title {
     text-transform: uppercase;
     letter-spacing: 12px;
     margin-left: 20px;
+}
+
+.section__title--center {
+    text-align: center;
 }
 
 /* colors */
