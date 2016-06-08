@@ -1,0 +1,27 @@
+.blogposts-list {
+    display: flex;
+}
+
+.blogpost--featured {
+    width: 50%;
+    background: $sand;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 80px 40px;
+}
+
+.blogpost--featured .blogpost-title {
+    font-size: 36px;
+    font-style: italic;
+}
+
+
+.blogposts-latest {
+    padding: 40px;
+}
