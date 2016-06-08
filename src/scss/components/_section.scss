@@ -1,5 +1,5 @@
 .section {
-
+    padding: 90px 20px;
 }
 
 /* colors */
@@ -19,18 +19,31 @@
 .section--content-center {
     display: flex;
     justify-content: center;
-    align-items: center;;
-}
+    align-items: center;
 
-.section__headline {
-    font-size: 24px;
-    color: #000000;
-}
-
-.section__headline--center {
     text-align: center;
 }
 
-.section__description {
+.section--thick-border {
+    border: 40px solid white;
+}
 
+
+.section__hero-content {
+    max-width: 760px;
+    padding: 0 20px;
+    color: white;
+}
+
+.section__headline {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.section__description {
+    font-size: 20px;
+    line-height: 1.5;
+
+    margin-bottom: 60px;
 }

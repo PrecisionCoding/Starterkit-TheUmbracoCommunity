@@ -1,0 +1,31 @@
+.overlay {
+    position: relative;
+
+    &:after {
+        content:"";
+        z-index: 0;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+// Themed overlays
+.overlay--dark:after {
+    background: rgba(#252121, .6);
+}
+
+.overlay--light:after {
+    background: rgba(#e0e0e0, .6);
+}
+
+
+// Set content to always be above overlay
+.overlay * {
+    position: relative;
+    z-index: 1;
+}
