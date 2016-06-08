@@ -1,0 +1,34 @@
+{
+    "name": "Umbraco GulpFlow",
+    "version": "1.0.0",
+    "description": "Umbraco GulpFlow",
+    "main": "gulpfile.js",
+    "private": true,
+    "devDependencies": {
+        "browserify": "^13.0.0",
+        "jshint": "^2.9.2",
+        "browser-sync": "^2.11.1",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^3.1.0",
+        "gulp-combine-media-queries": "0.2.x",
+        "gulp-cssnano": "^2.1.1",
+        "gulp-imagemin": "^2.4.0",
+        "gulp-jshint": "2.0.0",
+        "gulp-sass": "^2.2.0",
+        "gulp-uglify": "^1.5.3",
+        "gulp-uncss": "^1.0.5",
+        "gulp-util": "3.0.x",
+        "jshint-stylish": "^2.2.0",
+        "vinyl-buffer": "^1.0.0",
+        "vinyl-source-stream": "^1.1.0"
+    },
+    "scripts": {
+        "test": "gulp build --verbose"
+    },
+    "author": "Umbraco",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/umbraco/Starterkit-TheUmbracoCommunity"
+    }
+}
