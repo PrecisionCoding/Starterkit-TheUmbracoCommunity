@@ -1,0 +1,22 @@
+{
+    "name": "umbraco-gulpflow",
+    "version": "1.0.0",
+    "authors": [
+        "Mads Rasmussen <mads@umbraco.com>",
+        "Simon Busborg <simon@umbraco.com>"
+    ],
+    "description": "Bower dependencies to use with umbraco-gulpflow",
+    "main": "src/js/app.js",
+    "license": "MIT",
+    "homepage": "http://umbraco.com",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "devDependencies": {
+        "bootstrap-sass": "~3.3.3"
+    },
+    "dependencies": {}
+}
