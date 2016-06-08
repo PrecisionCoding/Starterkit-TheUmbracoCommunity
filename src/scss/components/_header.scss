@@ -2,8 +2,34 @@
     position: fixed;
     z-index: 10;
     width: 100%;
-    padding: 80px 60px;
+    padding: 60px 60px;
 
     display: flex;
     align-items: center;
+
+    transition: all 100ms ease;
+}
+
+
+
+.header.fixed {
+    padding: 20px;
+    background: white;
+    color: black;
+}
+
+.header.fixed .nav-link {
+    color: black;
+
+    &:hover {
+        border-bottom-color: black;
+    }
+}
+
+.header.fixed .nav-link--home__text {
+    font-size: 16px;
+
+    &:after {
+        width: 0;
+    }
 }
