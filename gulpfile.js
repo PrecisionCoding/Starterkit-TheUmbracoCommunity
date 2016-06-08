@@ -49,7 +49,13 @@ gulp.task('js', function() {
 // minify css
 gulp.task('css', function() {
     gulp.src(settings.source + '/scss/**/*.scss')
-    .pipe(sass({precision: 6, includePaths: ['./bower_components/bootstrap-sass/assets/stylesheets']}).on('error', gutil.log))
+    .pipe(sass({
+        precision: 6,
+        includePaths: [
+            './bower_components/bootstrap-sass/assets/stylesheets',
+            './bower_components/normalize-scss'
+        ]
+    }).on('error', gutil.log))
     .pipe(autoprefixer('last 2 version', 'ie 11', 'ios 8'))
     .pipe(cmq({log: true}))
     .pipe(cssnano())
