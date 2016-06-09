@@ -40,12 +40,22 @@
     height: 25vh;
 }
 
+.section--vh-40 {
+    height: 40vh;
+}
+
 .section--content-center {
     display: flex;
     justify-content: center;
     align-items: center;
 
     text-align: center;
+}
+
+.section--content-center-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .section--thick-border {
