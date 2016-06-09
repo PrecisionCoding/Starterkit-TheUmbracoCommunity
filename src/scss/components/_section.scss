@@ -39,11 +39,12 @@
 }
 
 .section--vh-25 {
-    height: 25vh;
+    height: 320px;
 }
 
 .section--vh-40 {
     height: 40vh;
+    max-height: 600px;
 }
 
 .section--content-center {

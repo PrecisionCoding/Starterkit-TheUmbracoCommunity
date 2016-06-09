@@ -220,12 +220,12 @@
 
            $(document).ready(function(){
         	   $(window).bind('scroll', function() {
-        	       var navHeight = 60;
+        	       var navHeight = 200;
         			 if ($(window).scrollTop() > navHeight) {
-        				 $('.header').addClass('fixed');
+        				 $('body').addClass('fixed');
         			 }
         			 else {
-        				 $('.header').removeClass('fixed');
+        				 $('body').removeClass('fixed');
         			 }
         		});
         	});

@@ -76,8 +76,8 @@ a.nav-link.nav-link--black {
 
 
 
-body.front .header:not(.fixed) .nav-link,
-body.front .header:not(.fixed) .nav-link:visited {
+body.front:not(.fixed) .header .nav-link,
+body.front:not(.fixed) .header .nav-link:visited {
     color: white !important;
 
     &:hover {
