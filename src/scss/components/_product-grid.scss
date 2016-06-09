@@ -4,7 +4,10 @@
     flex-wrap: wrap;
     overflow: hidden;
 
-    margin: 60px 20px;
+    @media (min-width: 992px) {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 .product-grid__item {
@@ -35,8 +38,8 @@
 
 .product-grid__item:hover .product-grid__item__name,
 .product-grid__item:hover .product-grid__item__price {
-    background-color: $water;
-    color: white;
+    // Themed
+    @extend .bg-main-color;
 }
 
 .product-grid__item__overlay {

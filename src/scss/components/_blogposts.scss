@@ -13,7 +13,7 @@
 
     display: block;
 
-    padding: 30px 10px;
+    padding: 30px 20px;
 
     @media (min-width: 992px) {
         padding: 30px;
@@ -23,14 +23,21 @@
 
 .blogpost.blogpost-with-image {
     display: flex;
+
+    flex-direction: column;
+
+    @media (min-width: 992px) {
+        flex-direction: row;
+    }
 }
 
 .blogpost:last-child {
     margin-bottom: 60px;
 }
 
-.blogpost:hover {
-    background-color: $sand;
+
+.blogpost:hover .blogpost-title {
+    text-decoration: underline;
 }
 
 .blogpost:hover .blogpost-cat {
@@ -39,7 +46,9 @@
 
 .blogpost-image {
     flex: 1 0 100%;
-    margin-right: 20px;
+    margin-left: 40px;
+
+    border-radius: 50%;
 }
 
 .blogpost-info {
@@ -61,20 +70,31 @@
 }
 
 .blogpost-cat {
-    color: $water;
     padding: 5px 3px 6px 5px;
     line-height: 1;
 
     letter-spacing: 1px;
     font-size: 80%;
     font-weight: bold;
+
+    // Themed
+    @extend .font-main-color;
 }
 
 
 .blogpost-image {
     height: 160px;
-    max-width: 160px;
+    width: 160px;
     background-size: cover;
+
+    margin-top: 15px;
+
+    @media (min-width: 992px) {
+        height: 160px;
+        max-width: 160px;
+
+        margin-bottom: 0;;
+    }
 }
 
 .blogpost-title {
@@ -101,7 +121,6 @@
 
     font-size: 18px;
 
-
     &:hover {
         border-bottom-color: black;
     }
@@ -127,8 +146,10 @@
 }
 
 .blogposts-centered .blogpost-title {
-    color: $water;
     margin-bottom: 30px;
+
+    //Themed
+    @extend .font-main-color;
 }
 
 .blogposts-centered .blogpost-excerpt {
@@ -153,8 +174,11 @@
 
 .blogpost-singlecolumn a,
 .blogpost-singlecolumn a:visited {
-    color: $water;
     text-decoration: none;
+
+    // Themed
+    @extend .font-main-color;
+    color: red;
 
     &:hover {
         text-decoration: underline;

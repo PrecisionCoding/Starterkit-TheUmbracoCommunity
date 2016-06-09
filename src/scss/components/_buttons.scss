@@ -14,8 +14,7 @@
     font-size: 16px;
     font-weight: bold;
 
-    background-color: $water;
-    border: 2px solid $water;
+    border: 2px solid black;
 
     transition: all 100ms linear;
 
@@ -98,22 +97,25 @@
 
 
 // Dark buttons
-.button--border--blue {
+.button--border {
     background: none;
-    border-color: $water;
-    color: $water;
+
+    //Themed
+    @extend .font-main-color;
+    @extend .border-main-color;
 
     &:hover {
-        background: $water;
-        color: $water;
         opacity: 1;
+
+        //Themed
+        @extend .font-main-color;
+        @extend .border-main-color;
     }
 }
 
-.button--border--blue_solid {
-    background: $water;
-    border-color: $water;
-    color: white;
+.button--border--solid {
+    @extend .bg-main-color;
+    @extend .border-main-color;
 
     &:hover {
         opacity: .7;
