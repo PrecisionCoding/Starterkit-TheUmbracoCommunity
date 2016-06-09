@@ -19,7 +19,8 @@
 .header.fixed .nav-link {
     color: black;
 
-    &:hover {
+    &:hover,
+    &--active {
         border-bottom-color: black;
     }
 }
