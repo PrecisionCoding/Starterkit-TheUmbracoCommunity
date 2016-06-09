@@ -172,11 +172,11 @@
     text-decoration: none;
 
     // Themed
-    @extend .font-main-color;
-    color: red;
+    @extend .font-link-color;
+    text-decoration: underline;
 
     &:hover {
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
