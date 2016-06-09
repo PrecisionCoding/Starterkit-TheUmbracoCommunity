@@ -55,23 +55,17 @@
 .blogpost-meta {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 10px;
 }
 
 .blogpost-date {
     display: block;
-    margin-bottom: 10px;
-    opacity: .5;
+    opacity: 1;
+    margin-right: 10px;
 }
 
 .blogpost-cat {
-    padding: 5px 3px 6px 5px;
-    line-height: 1;
-
-    letter-spacing: 1px;
-    font-size: 80%;
-
     // Themed
     opacity: .5;
 }
@@ -88,7 +82,7 @@
         height: 160px;
         max-width: 160px;
 
-        margin-bottom: 0;;
+        margin-top: 0;
     }
 }
 
