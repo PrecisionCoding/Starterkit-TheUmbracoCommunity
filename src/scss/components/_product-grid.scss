@@ -7,8 +7,11 @@
     margin: 60px 20px;
 }
 
+.product-grid.-air .product-grid__item {
+    padding: 30px 15px;
+}
+
 .product-grid__item {
-    background-color: #cccccc;
     height: 300px;
     position: relative;
     overflow: hidden;
@@ -22,6 +25,15 @@
 .product-grid__item:hover {
     cursor: pointer;
 }
+
+.product-grid__item:hover .product-grid__item__name,
+.product-grid__item:hover .product-grid__item__price {
+    background-color: $water;
+    color: white;
+
+}
+
+
 
 .product-grid__item__overlay {
     position: absolute;

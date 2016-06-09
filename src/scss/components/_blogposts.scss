@@ -1,9 +1,9 @@
 .blogposts {
-    margin: 20px auto;
-
+    margin-left: auto;
+    margin-right: auto;
+    
     @media (min-width: 992px) {
         max-width: 800px;
-        margin: 60px auto;
     }
 }
 
@@ -43,7 +43,7 @@
 }
 
 .blogpost-excerpt {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     opacity: .8;
 }
