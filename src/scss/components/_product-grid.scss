@@ -11,11 +11,22 @@
     height: 300px;
     position: relative;
     overflow: hidden;
-    flex: 1 1 33%;
-    max-width: 33%;
+    flex: 1 1 100%;
+    max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
+    @media (min-width: 768px) {
+        flex: 1 1 50%;
+        max-width: 50%;
+    }
+
+    @media (min-width: 1200px) {
+        flex: 1 1 33%;
+        max-width: 33%;
+    }
+
 }
 
 .product-grid__item:hover {
