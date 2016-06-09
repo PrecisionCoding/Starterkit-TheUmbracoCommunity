@@ -21,8 +21,6 @@
     }
 }
 
-
-
 .blogpost.blogpost-with-image {
     display: flex;
 }
@@ -90,4 +88,58 @@
     font-size: 16px;
     line-height: 1.5;
     opacity: .8;
+}
+
+
+
+.blogpost-link {
+    margin-top: 25px;
+    display: inline-flex;
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgba(black, .15);
+    color: black;
+    text-decoration: none;
+
+    font-size: 18px;
+
+
+    &:hover {
+        border-bottom-color: black;
+    }
+}
+
+
+
+.blogposts-centered {
+    text-align: center;
+}
+
+.blogposts-centered .blogpost {
+    margin: 30px 0;
+}
+
+.blogposts-centered .blogpost:hover {
+    background: none;
+}
+
+.blogposts-centered .blogpost + .blogpost {
+    border-top: 1px solid $sand;
+}
+
+.blogposts-centered .blogpost-title {
+    color: $water;
+    margin-bottom: 30px;
+}
+
+.blogposts-centered .blogpost-excerpt {
+    font-size: 18px;
+}
+
+.blogposts-centered .blogpost-meta {
+    justify-content: center;
+}
+
+.blogposts-centered .blogpost-title {
+    font-size: 30px;
+    line-height: 1.3;
 }
