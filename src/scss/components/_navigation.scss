@@ -16,7 +16,8 @@ nav {
     border-bottom: 2px solid transparent;
 
 
-    &:hover {
+    &:hover,
+    &--active {
         box-shadow: inset 0 -2px 0 white;
     }
 }
