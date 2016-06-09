@@ -93,7 +93,7 @@ gulp.task('browser-sync', function() {
 gulp.task('default', ['build', 'browser-sync'], function() {
     gulp.watch([settings.source + '/js/**/*.js'], ['lint', 'js']);
     gulp.watch([settings.source + '/scss/**/*.scss', settings.source + '/css/**/*.css'], ['css'], reload);
-    gulp.watch([settings.build + '/*.html'], ['bs-reload']);
+    gulp.watch([settings.build + '/**/*.html'], ['bs-reload']);
 });
 
 gulp.task('build', ['lint', 'js', 'css', 'browser-sync']);
