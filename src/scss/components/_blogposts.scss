@@ -35,14 +35,10 @@
     margin-bottom: 60px;
 }
 
-
 .blogpost:hover .blogpost-title {
     text-decoration: underline;
 }
 
-.blogpost:hover .blogpost-cat {
-    font-weight: bold;
-}
 
 .blogpost-image {
     flex: 1 0 100%;
@@ -75,10 +71,9 @@
 
     letter-spacing: 1px;
     font-size: 80%;
-    font-weight: bold;
 
     // Themed
-    @extend .font-main-color;
+    opacity: .5;
 }
 
 

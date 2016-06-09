@@ -65,10 +65,15 @@
 }
 
 
+body.front .section__hero-content {
+    color: white;
+}
+
 .section__hero-content {
     max-width: 760px;
     padding: 0 20px;
-    color: white;
+
+    @extend .font-main-color;
 }
 
 .section__headline {

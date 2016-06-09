@@ -4,34 +4,77 @@
 
 */
 
-$sand:    #F4F4F0; // Beige
-$sun:     #F8E71C; // Yellow
-$water:   #362BDC; // Blue
-$rock:    #CCCCCC; // Rock
-$earth:   #b1824b; // Earth
+$sand:        #F4F4F0;
+$rock:        #CCCCCC;
 
+
+$water:       #362BDC;
+$water-dark:  #2a21aa;
+
+$sun:         #F8EA88;
+$sun-dark:    #F8EA88;
+
+$earth:       #e7afa3;
+$earth-dark:  #90514c;
+
+$freaky:      #77F3D9;
+$freaky-dark: #31bd9f;
+
+$piglet:      #e992f7;
+$piglet-dark: #aa49ba;
 
 
 
 // Water theme
+
 body.theme-color-water {
     .bg-main-color { background-color: $water; color: white; }
-    .font-main-color { color: $water; }
-    .border-main-color { border-color: $water; }
+    .bg-secondary-color { background-color: white; color: $water; }
+
+    .font-main-color { color: white; }
+    .border-main-color { border-color: white; }
 }
 
 
 // Sun Theme
+
 body.theme-color-sun {
     .bg-main-color { background-color: $sun; color: black; }
+    .bg-secondary-color { background-color: black; color: $sun; }
+
     .font-main-color { color: black; }
-    .border-main-color { border-color: $sun; }
+    .border-main-color { border-color: black; }
 }
 
 
 // Earth theme
+
 body.theme-color-earth {
     .bg-main-color { background-color: $earth; color: black; }
-    .font-main-color { color: $earth; }
-    .border-main-color { border-color: $earth; }
+    .bg-secondary-color { background-color: black; color: $earth; }
+
+    .font-main-color { color: black; }
+    .border-main-color { border-color: black; }
+}
+
+
+// Freaky theme
+
+body.theme-color-freaky {
+    .bg-main-color { background-color: $freaky; color: black; }
+    .bg-secondary-color { background-color: black; color: $freaky; }
+
+    .font-main-color { color: black; }
+    .border-main-color { border-color: black; }
+}
+
+
+// Picklett theme
+
+body.theme-color-piglet {
+    .bg-main-color { background-color: $piglet; color: black; }
+    .bg-secondary-color { background-color: black; color: $piglet; }
+
+    .font-main-color { color: black; }
+    .border-main-color { border-color: black; }
 }

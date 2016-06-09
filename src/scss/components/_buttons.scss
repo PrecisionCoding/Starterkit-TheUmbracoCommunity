@@ -106,7 +106,7 @@
 
 .button--border--solid {
     @extend .bg-main-color;
-    @extend .border-main-color;
+    border-color: transparent;;
 
     &:hover {
         opacity: .7;
