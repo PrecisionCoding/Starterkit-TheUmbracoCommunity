@@ -19,13 +19,13 @@ body.fixed .header {
     height: 80px;
     background: white;
 
-    transition: all 200ms cubic-bezier(0.694,0.0482,0.335,1);
+    transition: height 200ms cubic-bezier(0.694,0.0482,0.335,1);
     left: 0;
     position: fixed;
 }
 
 body.fixed .nav-bar {
-    transition: all 200ms cubic-bezier(0.694,0.0482,0.335,1);
+    transition: height 200ms cubic-bezier(0.694,0.0482,0.335,1);
     margin: 0 auto;
 }
 
