@@ -5,7 +5,7 @@
 
 		// Navigation Scroll
         $(window).bind('scroll', function() {
-            var navHeight = 100;
+            var navHeight = 150;
             if ($(window).scrollTop() > navHeight) {
                 $('body').addClass('fixed');
             } else {
@@ -18,6 +18,7 @@
 		 $('.mobile-nav-handler').click(function(e){
             $('.top-nav').toggleClass('-open');
             $('#toggle-nav').toggleClass('active');
+            $('body').toggleClass('nav-open');
         });
 
         $('.nav-link').click(function(e){

@@ -156,3 +156,18 @@ body.front .nav-link--home__text {
         background-color: white;
     }
 }
+
+body.fixed {
+    .hamburger span,
+	.hamburger span:before,
+	.hamburger span:after {
+        background-color: black !important;
+    }
+}
+
+body.nav-open {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+}
