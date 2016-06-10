@@ -1,6 +1,15 @@
 @import "bootstrap/mixins/grid-framework";
 @import "bootstrap/mixins/grid";
 @import "bootstrap/mixins/clearfix";
+@import "bootstrap/mixins/border-radius";
+@import "bootstrap/mixins/vendor-prefixes";
+@import "bootstrap/mixins/tab-focus";
+@import "bootstrap/mixins/forms";
+@import "bootstrap/mixins/labels";
 
 @import "bootstrap/variables";
 @import "bootstrap/grid";
+
+@import "bootstrap/forms";
+@import "bootstrap/input-groups";
+@import "bootstrap/labels";

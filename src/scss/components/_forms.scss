@@ -1,0 +1,21 @@
+label {
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-control {
+    border-radius: 0px;
+    box-shadow: none;
+    transition: none;
+    padding: 20px 15px;
+
+    &:focus {
+        border-color: $water;
+        box-shadow: none;
+    }
+}
