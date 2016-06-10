@@ -2,11 +2,20 @@
     display: inline-flex;
     align-items: center;
 
-    flex-direction: column;
+    flex-direction: row;
 
-    @media (min-width: 992px) {
-        flex-direction: row;
+    @media (max-width: 992px) {
+        flex-direction: column;
+        align-items: center;
     }
+
+}
+
+.nav-bar--list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .nav-bar--center {
@@ -15,7 +24,7 @@
 }
 
 .nav-bar--air-bottom {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .nav-link,
@@ -39,10 +48,15 @@
 
 
     @media (min-width: 992px) {
-        margin: 0 15px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
+
 }
 
+.nav-link--air-bottom {
+    margin-bottom: 5px;
+}
 
 a.nav-link.nav-link--black {
     color: black;

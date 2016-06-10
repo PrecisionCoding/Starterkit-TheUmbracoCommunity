@@ -1,0 +1,43 @@
+// Blogpost single layout
+article {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+article a,
+article a:visited {
+    text-decoration: none;
+
+    // Themed
+    @extend .font-link-color;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+article p, article li {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+article li {
+    padding: 5px 0;
+}
+
+article ul, article ol {
+    margin: 20px;
+    padding: 0;
+}
+
+article img {
+    max-width: 100%;
+}
+
+article img,
+article iframe {
+    margin: 0 0 20px;
+}
