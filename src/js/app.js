@@ -14,7 +14,6 @@
         });
 
 
-
 		 $('.mobile-nav-handler').click(function(e){
             $('.top-nav').toggleClass('-open');
             $('#toggle-nav').toggleClass('active');

@@ -75,7 +75,8 @@
     height: 160px;
     width: 160px;
     background-size: cover;
-
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 15px;
 
     @media (min-width: 992px) {
@@ -83,6 +84,8 @@
         max-width: 160px;
 
         margin-top: 0;
+        margin-left: 20px;
+
     }
 }
 
