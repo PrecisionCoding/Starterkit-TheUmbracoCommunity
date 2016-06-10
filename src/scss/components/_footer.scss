@@ -3,6 +3,6 @@ footer {
     padding-bottom: 60px;
 }
 
-footer .footer-link {
-    color: white;
+footer a {
+    @extend .font-main-color;
 }
