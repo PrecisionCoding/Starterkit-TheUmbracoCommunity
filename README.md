@@ -2,7 +2,7 @@
 
 
 ### Getting started
-To get started simply clone this repository into your dev environment, and run `npm install` to download the dependencies. Once completed you can run `gulp` to start it up.
+To get started simply clone this repository into your dev environment, and run `npm install` to download the dependencies, then run `bower install` to require dependencies used in the project. Once completed you can run `gulp` to start it up.
 
 The workflow creates a `/build` directory with all the compiled files.
 You can change this paths in the `gulpfile.js` file.
