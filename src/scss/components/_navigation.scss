@@ -103,12 +103,12 @@ a.nav-link.nav-link--black {
 // Top navigation
 .top-nav {
     @media (max-width: 992px) {
-        display: none;
+        height: 0;
     }
 }
 
 .top-nav .nav-link {
-    
+
     @media (max-width: 992px) {
         transition: transform 600ms cubic-bezier(.23,1,.32,1);
         transform: translate(0, 999px);
@@ -135,6 +135,7 @@ a.nav-link.nav-link--black {
 // top-nav open
 .top-nav.-open {
     width: 100%;
+    height: auto;
     position: fixed;
     left: 0;
     top: 0;
