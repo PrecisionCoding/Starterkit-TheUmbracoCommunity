@@ -1,5 +1,4 @@
 .header {
-    padding-left: 60px;
     height: 150px;
 
     display: flex;
@@ -8,6 +7,10 @@
     position: fixed;
     width: 100%;
     z-index: 10;
+
+    @media (min-width: 992px) {
+        padding-left: 60px;
+    }
 }
 
 

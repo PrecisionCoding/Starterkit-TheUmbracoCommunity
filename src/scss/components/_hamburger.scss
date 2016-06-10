@@ -1,0 +1,95 @@
+.mobile-nav-handler {
+    margin-left: auto;
+    margin-right: 20px;
+
+    @media (min-width: 992px) {
+        display: none;
+    }
+}
+
+.hamburger {
+    cursor: pointer;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+	display: flex;
+	align-items: center;
+
+	span,
+	span:before,
+	span:after {
+		display: block;
+
+		@extend .bg-secondary-color;
+
+		transition-property: all;
+        transition-duration: .1s;
+	}
+
+	span {
+		margin: 0 auto;
+		position: relative;
+	}
+	span:before,
+	span:after {
+		position: absolute;
+		content: '';
+	}
+}
+
+.hamburger.lines {
+    span,
+    span:before,
+    span:after {
+        width: 20px;
+        height: 2px;
+    }
+
+    span:before {
+        transform: translateY(-5px);
+    }
+
+    span:after {
+        transform: translateY(5px);
+    }
+
+    &:hover {
+        span:before {
+            transform: translateY(-7px);
+        }
+
+        span:after {
+            transform: translateY(7px);
+        }
+
+        &.active {
+            span:before,
+            span:after {
+                @extend .bg-secondary-color;
+            }
+
+            span:before {
+                transform: rotate(45deg);
+            }
+
+            span:after {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}
+
+.hamburger.lines.active span {
+    background-color: transparent !important;
+
+    &:before,
+    &:after {
+        transform: translateY(0);
+    }
+    &:before {
+        transform: rotate(45deg);
+    }
+    &:after {
+        transform: rotate(-45deg);
+    }
+}
