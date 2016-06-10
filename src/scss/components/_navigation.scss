@@ -141,6 +141,7 @@ a.nav-link.nav-link--black {
     top: 0;
     right: 0;
     bottom: 0;
+    z-index: 5;
 
 
 
@@ -192,5 +193,4 @@ body.nav-open {
     height: 100%;
     overflow: hidden;
     width: 100%;
-    position: fixed;
 }
