@@ -3,11 +3,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     overflow: hidden;
-
-    @media (min-width: $medium) {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
 }
 
 .product-grid__item {

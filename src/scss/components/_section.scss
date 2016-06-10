@@ -2,20 +2,6 @@
     padding: 90px 20px;
 }
 
-.section__title {
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    margin-left: 20px;
-
-    @media (min-width: $medium) {
-        letter-spacing: 12px;
-    }
-}
-
-.section__title--center {
-    text-align: center;
-}
-
 /* colors */
 .section--sand {
     background-color: $sand;
@@ -23,10 +9,6 @@
 
 .section--themed {
     @extend .bg-main-color;
-}
-
-.section--rock {
-    background-color: $rock;
 }
 
 .section--stroke-bottom {
@@ -41,11 +23,6 @@
 .section--header {
     min-height: 320px;
     padding-top: 130px;
-}
-
-.section--vh-40 {
-    height: 40vh;
-    max-height: 600px;
 }
 
 .section--content-center {
@@ -66,7 +43,6 @@
     border: 20px solid white;
 }
 
-
 body.front .section__hero-content {
     color: white;
 }
@@ -76,16 +52,6 @@ body.front .section__hero-content {
     padding: 0 20px;
 
     @extend .font-main-color;
-}
-
-.section__headline {
-    font-size: 36px;
-    text-transform: uppercase;
-    margin: 0;
-
-    @media (min-width: $medium) {
-        font-size: 50px;
-    }
 }
 
 .section__description {

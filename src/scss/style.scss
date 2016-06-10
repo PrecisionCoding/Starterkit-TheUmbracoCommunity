@@ -26,6 +26,9 @@ html, body {
 @import "_normalize";
 @import "components/grid";
 
+@import "variables";
+@import "typography";
+
 
 /**
     Themes
@@ -39,19 +42,10 @@ html, body {
 @import "themes/typography/standard";
 
 
-
-/**
-    Templates
-    – Styles for specific templates
-*/
-
-
-
 /**
     Componenets
     – Component styling
 */
-@import "helpers/variables";
 @import "components/product";
 @import "components/product-grid";
 @import "components/header";
