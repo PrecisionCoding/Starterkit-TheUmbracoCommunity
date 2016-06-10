@@ -7,7 +7,7 @@
     letter-spacing: 6px;
     margin-left: 20px;
 
-    @media (min-width: 992px) {
+    @media (min-width: $medium) {
         letter-spacing: 12px;
     }
 }
@@ -83,7 +83,7 @@ body.front .section__hero-content {
     text-transform: uppercase;
     margin: 0;
 
-    @media (min-width: 992px) {
+    @media (min-width: $medium) {
         font-size: 50px;
     }
 }

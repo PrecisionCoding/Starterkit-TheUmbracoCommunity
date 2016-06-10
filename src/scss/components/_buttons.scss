@@ -23,7 +23,7 @@
         opacity: .7;
     }
 
-    @media (min-width: 992px) {
+    @media (min-width: $medium) {
         padding: 10px 80px;
     }
 }
